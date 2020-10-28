@@ -1,0 +1,89 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+body {
+  background-color: #ECEBE4;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #1A659E;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #283d3b;
+  padding: 32px;
+  font-weight: lighter;
+
+}
+a:hover {
+  color:#1A659E;
+}
+
+li {
+  display: inline;
+  font-size: 30px;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+.container {
+  padding: 0px 95px;
+
+}
+
+.img-circle {
+  width: 200px;
+  border-radius: 137px;
+}
+
+.card {
+  box-shadow: 4px 5px 3px darkgrey;
+  margin: 25px auto;
+  background-color: rgb(242, 242, 242);
+  border-radius: 7px;
+  padding: 30px;
+}
+
+.button {
+  background-color: #1A659E;
+  padding: 11px;
+  border-radius: 28px;
+  color: #F2F2F2;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: rgba(25, 114, 120, 0.5);
+}
+
+.list-inline {
+  padding: 0px 20px;
+  font-size:
+}
+
